@@ -2,7 +2,10 @@ package test;
 
 import problem.Q1;
 import problem.Q10;
+import problem.Q12;
+import problem.Q13;
 import problem.Q2;
+import problem.Q20;
 import problem.Q4;
 import problem.Q5;
 import problem.Q7;
@@ -29,7 +32,12 @@ public class RunPool {
 		System.out.println("---------------------------------------");
 		Q10 q10 = new Q10(); q10.main(null);
 		System.out.println("---------------------------------------");
-		
+		Q12 q12 = new Q12(); q12.main(null);
+		System.out.println("---------------------------------------");
+		Q13 q13 = new Q13(); q13.result();
+		System.out.println("---------------------------------------");
+		Q20 q20 = new Q20(); q20.result();
+		System.out.println("---------------------------------------");
 	}
 
 }
